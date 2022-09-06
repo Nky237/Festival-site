@@ -99,4 +99,7 @@
     .nav-item img, .hide{
         display: block;
     }
+    .nav-img{
+        display: none;
+    }
 }
