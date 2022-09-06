@@ -2,7 +2,7 @@
 .whole-section{
     background-image: linear-gradient(to left, #09071D 60%, #4D0515);
     color: white;
-    padding-top:90px;
+    padding-top:120px;
     font-family: 'DM Sans', sans-serif;
 
 }
@@ -44,4 +44,38 @@
     border-top: 2px solid white;
     background-color: black;
     height: 90px;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        text-align: center;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+    .navbar li, .nav-img{
+        padding-top: 50px;
+    }.navbar li a{
+        font-size: 26px;
+    }
 }
