@@ -8,6 +8,16 @@
 .navbar-brand img{
     height: 50px;
 }
+.nav-item img{
+    height: 50px;
+    width: 50px;
+}
+.nav-item img, .hide{
+    display: none;
+}
+.hide p{
+    font-size: 25px;
+}
 .about-text p{
     font-size: 23px;
     word-spacing: 5px;
@@ -75,5 +85,16 @@
         padding-top: 50px;
     }.navbar li a{
         font-size: 26px;
+    }
+    .nav-item{
+        gap: 19px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-item:hover{
+        background-color: #4D0515;
+    }
+    .nav-item img, .hide{
+        display: block;
     }
 }
