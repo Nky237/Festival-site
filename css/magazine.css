@@ -6,6 +6,9 @@
     font-family: 'DM Sans', sans-serif;
 
 }
+.navbar-brand img{
+    height: 50px;
+}
 .top .card{
     background-image: linear-gradient(to left, #09071D 60%, #4D0515);
     color: white; 

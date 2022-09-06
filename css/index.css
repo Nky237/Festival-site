@@ -4,6 +4,9 @@
     color: white;
     padding-top: 90px;
 }
+.navbar-brand img{
+    height: 50px;
+}
 .about-text p{
     font-size: 23px;
     word-spacing: 5px;
