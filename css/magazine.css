@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&display=swap');
+.whole-section{
+    background-image: linear-gradient(to left, #09071D 60%, #4D0515);
+    color: white;
+    padding-top:90px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.top .card{
+    background-image: linear-gradient(to left, #09071D 60%, #4D0515);
+    color: white; 
+}
+.top .card p, .text p{
+    font-size: 24px;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+.text p{
+    line-height: 65px;
+    word-spacing: 7px; 
+}
+.mag img{
+    height: 200px;
+}
+.contri p{
+    line-height: 45px;
+    font-size: 24px;
+}
+.btn{
+    background-color: #360616;
+    width: 200px;
+    margin-bottom: 70px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+.black{
+    border-top: 2px solid white;
+    background-color: black;
+    height: 90px;
+}

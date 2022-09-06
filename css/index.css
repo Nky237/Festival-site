@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&family=Inter&display=swap');
+.whole-section{
+    background-image: linear-gradient(to left, #09071D 60%, #4D0515);
+    color: white;
+    padding-top: 90px;
+}
+.about-text p{
+    font-size: 23px;
+    word-spacing: 5px;
+    line-height: 48px;
+    font-family: 'DM Sans', sans-serif;
+}
+.card{
+    box-shadow: rgba(250, 89, 89, 0.24) 0px 3px 8px;
+}
+.red{
+    height: 40px;
+    width: 5px;
+    background-color: red;
+    }
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.card p{
+    font-family: 'Inter', sans-serif;
+}
+
+/* FOOTER */
+.icon i{
+    font-size: 30px;
+    padding: 10px;
+}
+.black{
+    border-top: 2px solid white;
+    background-color: black;
+    height: 90px;
+}
+.bg-red{
+    background-color: #370618;
+    width: 100%;
+}
