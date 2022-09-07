@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&family=Inter&family=Patrick+Hand&display=swap');
+.nav-link{
+    font-family: 'Inter', sans-serif;  
+}
 .whole-section{
     background-image: linear-gradient(to left, #09071D 60%, #4D0515);
     color: white;
-    padding-top:120px;
+    padding-top: 170px;
     font-family: 'DM Sans', sans-serif;
 
 }
 .nav-item img{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
+    
 }
-.nav-item img, .hide{
+.nav-item img, .hidy{
     display: none;
 }
-.hide p{
-    font-size: 25px;
+
+.hidy h1{
+    padding-top: 30px;
+}
+.hidy{
+    color: white;
 }
 .navbar-brand img{
     height: 50px;
@@ -28,16 +36,29 @@
     line-height: 40px;
     word-spacing: 5px;
 }
+
 .text p{
     line-height: 65px;
     word-spacing: 7px; 
 }
 .mag img{
-    height: 200px;
+    height: 220px;
+}
+.contri .card{
+    box-shadow: rgba(250, 89, 89, 0.24) 0px 3px 8px;
+}
+.bar{
+    height: 40px;
+    width: 15px;
+    background-color: red;
 }
 .contri p{
     line-height: 45px;
     font-size: 24px;
+    font-family:'DM Sans', sans-serif;
+}
+.red{
+    background-color: #360616;  
 }
 .btn{
     background-color: #360616;
@@ -67,7 +88,7 @@
         width: 100%;
         height: 100%;
         background-color: black;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .navbar-collapse.collapsing {
@@ -84,22 +105,43 @@
         transition: left 500ms ease-in-out;
     }
     .navbar li, .nav-img{
-        padding-top: 50px;
+        padding-top: 20px;
     }.navbar li a{
         font-size: 26px;
     }
     .nav-item{
-        gap: 19px;
+        gap: 29px;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .nav-item:hover{
         background-color: #4D0515;
     }
-    .nav-item img, .hide{
+    .nav-item img, .hidy, .nav-item small{
         display: block;
+    }
+    .nav-item img{
+        margin-left: 30px;
     }
     .nav-img{
         display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    .mag{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .navbar li, .nav-img{
+        padding-top: 0.2px;
+        font-size: 12px;
+    }
+    a.nav-link.text-light, a.nav-link.active{
+        font-size: 18px;
     }
 }
