@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&family=Inter&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400&family=Patrick+Hand&display=swap');
 .nav-link{
-    font-family: 'Inter', sans-serif;  
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
 
 }
@@ -11,7 +11,7 @@
 .whole-section{
     background-image: linear-gradient(to left, #09071D 60%, #4D0515);
     color: white;
-    padding-top: 170px;
+    padding-top: 110px;
     font-family: 'DM Sans', sans-serif;
 
 }
@@ -33,47 +33,20 @@
 .navbar-brand img{
     height: 70px;
 }
-.top .card{
-    background-image: linear-gradient(to left, #09071D 60%, #4D0515);
-    color: white; 
+/* MAIN-SECTION */
+.mission-img img{
+    width: 100%;
+    height: 600px;
 }
-.top .card p, .text p{
+.mission-texty{
+    font-size: 25px;
+    padding-top: 12px;
+    font-family: 'Patrick Hand', cursive;
+}
+.mission-texty2{
     font-size: 24px;
-    line-height: 40px;
-    word-spacing: 5px;
-}
-
-.text p{
-    line-height: 65px;
-    word-spacing: 7px; 
-}
-.mag img{
-    height: 220px;
-}
-.contri .card{
-    box-shadow: rgba(250, 89, 89, 0.24) 0px 3px 8px;
-}
-.bar{
-    height: 40px;
-    width: 15px;
-    background-color: red;
-}
-.contri p{
-    line-height: 45px;
-    font-size: 24px;
-    font-family:'DM Sans', sans-serif;
-}
-.red{
-    background-color: #360616;  
-}
-.btn{
-    background-color: #360616;
-    width: 200px;
-    margin-bottom: 70px;
-}
-.btn a{
-    text-decoration: none;
-    color: white;
+    line-height: 46px;
+    font-weight: 400;
 }
 
 /* footer */
@@ -134,21 +107,16 @@
         display: none;
     }
 }
-@media only screen and (max-width: 500px){
-    .mag{
-        display: flex;
-        flex-direction: column;
-    }
-    .text{
-        padding-top: 40px;
-    }
-}
+
 @media only screen and (max-width: 300px){
     .navbar li, .nav-img{
         padding-top: 0.2px;
         font-size: 12px;
     }
     a.nav-link.text-light, a.nav-link.active{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .nav-item img{
+        height: 35px;
     }
 }
