@@ -49,6 +49,8 @@
 }
 .mag img{
     height: 220px;
+    object-fit: cover;
+
 }
 .contri .card{
     box-shadow: rgba(250, 89, 89, 0.24) 0px 3px 8px;
